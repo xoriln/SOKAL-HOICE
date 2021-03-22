@@ -1,2 +1,67 @@
-@import 'vars';
-@import 'fonts';
+@import 'global';
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    .logo{
+        &__link{
+            display: inline-block;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            margin-top: 69px;
+            padding: 20px;
+            line-height: 24px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            border: 1px solid $bg-color;
+        }
+    }
+    .top-slider{
+        &__item{
+            color: #fff;
+            text-align: center;
+        }
+        &__title{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: uppercase;
+            margin-top: 214px;
+        }
+        &__text{
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 34px;
+            padding-left: 130px;
+            padding-right: 121px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        .slick-arrow{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: #181818;
+            position: absolute;
+            border: none;
+            font-family: "Font Awesome";
+            z-index: 5;
+        }
+        .slick-arrow:hover{
+            background-color: $bg-color;
+        }
+        .slick-prev{
+            margin-top: 227px;
+        }
+        .slick-next{
+            margin-left: 1110px;
+            margin-top: -117px;
+ 
+        }
+    }
+}       
+
