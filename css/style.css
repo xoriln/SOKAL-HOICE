@@ -430,3 +430,47 @@ span {
 .portfolio__item .portfolio__item-img {
   margin-bottom: 23px;
 }
+
+.footer {
+  width: 1366px;
+  height: 105px;
+  background-color: #fff;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 49px;
+}
+
+.footer .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 93px;
+}
+
+.footer .text-menu, .footer p {
+  color: #898989;
+  word-spacing: 15px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 32px;
+  line-height: 24px;
+}
+
+.footer .copyright-text {
+  color: #898989;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
