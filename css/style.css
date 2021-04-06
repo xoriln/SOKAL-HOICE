@@ -431,6 +431,138 @@ span {
   margin-bottom: 23px;
 }
 
+.contact {
+  width: 1366px;
+  height: 768px;
+  background-color: #f7f7f7;
+  padding-top: 70px;
+}
+
+.contact__title {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #39b54a;
+  padding: 14px 35px;
+  width: 200px;
+  height: 50px;
+}
+
+.contact__text {
+  width: 523px;
+  height: 38px;
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 45px;
+}
+
+.contact .columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .columns .form__contact {
+  margin-top: 94px;
+}
+
+.contact .columns .form__contact input {
+  width: 256px;
+  height: 50px;
+  border: 1px solid #39b54a;
+  background-color: #f7f7f7;
+  margin: 0 18px 21px 0;
+  text-indent: 19px;
+}
+
+.contact .columns .form__contact .input-message {
+  width: 533px;
+  height: 100px;
+}
+
+.contact .columns .form__contact input.input-message {
+  padding-bottom: 48px;
+}
+
+.contact .columns .form__contact .batton-send {
+  width: 532px;
+  height: 50px;
+  background-color: #39b54a;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contact .columns .contact-head-2 .contact__text-2 {
+  width: 426px;
+  height: 62px;
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.contact .columns .contact-head-2 .contact__address {
+  width: 154px;
+  height: 133px;
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  margin: 23px 0 16px 0;
+  line-height: 24px;
+}
+
+.contact .columns .contact-head-2 .contact__connect {
+  color: #555555;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contact .columns .contact-head-2 .contact__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.contact .columns .contact-head-2 .contact__social .social__background {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #39b54a;
+  margin-right: 12px;
+}
+
+.contact .columns .contact-head-2 .contact__social .social__background .social .social-img {
+  margin-top: 13px;
+  margin-left: 16px;
+  width: 18px;
+  height: 23px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .footer {
   width: 1366px;
   height: 105px;

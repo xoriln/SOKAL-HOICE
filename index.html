@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+
+    <header id="header" class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="logo">
@@ -105,7 +106,7 @@
         </div>
     </section>
 
-    <section class="service">
+    <section id="service" class="service">
         <div class="container">
           <div class="service__inner">
                 <div class="service__head">
@@ -211,7 +212,7 @@
         </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="portfolio__inner">
                 <div class="portfolio__head">
@@ -256,17 +257,89 @@
         </div>
     </section>
 
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact-head">
+                    <div class="contact__title">
+                        CONTACT <span>US</span>
+                    </div>
+                    <div class="contact__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                    </div>
+                </div>
+                <div class="columns">
+                    <form action="#" class="form__contact">
+                        <div class="form__item-inner">
+                            <input type="text" class="input-company" name="Company" placeholder="Company name">
+                            <input type="text"  class="input-name" name="Name" placeholder="Name">
+                            <input type="text" class="input-email" name="Email" placeholder="Email address">
+                            <input type="text" class="input-subject" name="Subject" placeholder="Subject">
+                            <p><input class="input-message" name="message" placeholder="Type your message"></p>
+                            <input class="batton-send" type="submit" value="Send Message">
+                        </div>
+                    </form>
+                    <div class="contact-head-2">
+                        <div class="contact__text-2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </div>
+                        <div class="contact__address">
+                            Linda Bhavan
+                            D-82, College Road-144
+                            South City, Pantu Poth
+                            Kurigram,  Australia
+                            98746-54321<br>
+                            (715) 946 - 1234
+                        </div>
+                        <div class="contact__connect">
+                            Connect <span>with:</span>
+                        </div>
+                        <div class="contact__social">
+                            <div class="social__background">
+                                <a href="#" class="social">
+                                    <img src="./ico/FB.png" alt="image" class="social-img">
+                                </a>
+                            </div>
+                            <div class="social__background">
+                                <a href="#" class="social">
+                                    <img src="./ico/TWITER.png" alt="image" class="social-img">
+                                </a>
+                            </div>
+                            <div class="social__background">
+                                <a href="#" class="social">
+                                    <img src="./ico/BEHANCE.png" alt="image" class="social-img">
+                                </a>
+                            </div>
+                            <div class="social__background">
+                                <a href="#" class="social">
+                                    <img src="./ico/DRIBBLE.png" alt="image" class="social-img">
+                                </a>
+                            </div>
+                            <div class="social__background">
+                                <a href="#" class="social">
+                                    <img src="./ico/RSS.png" alt="image" class="social-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
                 <nav class="menu">
-                    <a href="#" class="text-menu">Home</a>
+                    <a href="#header" class="text-menu">Home</a>
                     <p>|</p>
-                    <a href="#" class="text-menu">Services</a>
+                    <a href="#service" class="text-menu">Services</a>
                     <p>|</p>
-                    <a href="#" class="text-menu">Portfolio</a>
+                    <a href="#portfolio" class="text-menu">Portfolio</a>
                     <p>|</p>
-                    <a href="#" class="text-menu">Contact</a>
+                    <a href="#contact" class="text-menu">Contact</a>
                 </nav>
                 <div class="copyright">
                     <p class="copyright-text">
@@ -276,8 +349,6 @@
             </div>
         </div>
     </footer>
-
-    
     
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
